@@ -1,0 +1,77 @@
+.header{
+  background: url(img/fondoSeccion1.png);
+}
+
+.header .texto-header{
+  font-family: 'Oleo Script', cursive;
+  font-size: 72px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 3px 0px #aaa;
+  margin: 0;
+}
+
+.header .texto-header .texto-nombre{
+  font-family: 'Lobster', cursive;
+  font-size: 93px;
+}
+
+.header .texto-header .texto-amarillo{
+  color: #F7EC13;
+  font-size: 72px;
+}
+
+/*Section 2*/
+
+.section-2{
+  background: url(img/fondoSeccion2.png);
+}
+
+.section-2 .section-2-contenido{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.section-2 .section-2-contenido h2{
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 25px;
+}
+
+.section-2 .section-2-contenido ul{
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22.38px;
+  list-style: none;
+  padding: 0;
+}
+
+.section-2 .section-2-contenido ul li{
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+
+.section-2 .section-2-contenido ul li img{
+  width: 66%;
+  padding: 0;
+}
+
+.section-3{
+  background: url(img/seccion-2-1280x800.png);
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section-3 .agaves .titulo-agaves{
+
+}
