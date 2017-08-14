@@ -3,6 +3,13 @@ margin:0px;
 height:100%;
 }
 
+ul{
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
+
 .header{
   background: url(img/fondoSeccion1.png);
   background-size: cover;
@@ -20,6 +27,7 @@ height:100%;
   color: white;
   text-shadow: 0px 3px 0px #aaa;
   margin: 0;
+  padding-top: 20%;
 }
 
 .header .texto-header .texto-nombre{
@@ -42,12 +50,14 @@ height:100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  border-top: 21px solid white;
+
 }
 
 .section-2 .section-2-contenido{
   margin: 0 auto;
   width: 50%;
-  padding-top: 20px;
+  padding-top: 10%;
   padding-bottom: 50px;
 }
 
@@ -66,13 +76,11 @@ height:100%;
   margin: 0 auto;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22.38px;
-  list-style: none;
   padding: 0;
 }
 
 .section-2 .section-2-contenido ul li{
   color: white;
-  list-style: none;
   display: inline-block;
   margin: 15px;
 }
@@ -94,6 +102,7 @@ height:100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  border-top: 21px solid white;
 }
 
 .section-3 .agaves .logo-agaves{
@@ -123,11 +132,12 @@ height:100%;
 }
 
 .section-3 .agaves .texto-ubicacion-agaves h3{
-
+    margin-bottom: 5px;
 }
 
 .section-3 .agaves .texto-ubicacion-agaves p{
   font-size: 18px;
+  margin-top: 5px;
 }
 
 .section-3 .jardines .logo-jardines{
@@ -159,9 +169,94 @@ height:100%;
 }
 
 .section-3 .jardines .texto-ubicacion-jardines h3{
-
+    margin-bottom: 5px;
 }
 
 .section-3 .jardines .texto-ubicacion-jardines p{
   font-size: 18px;
+  margin-top: 5px;
+}
+
+.section-4{
+  background: url(img/seccionFormulario.png);
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-top: 21px solid white;
+}
+
+.section-4 .contenedor-centrado{
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+
+.section-4 .contenedor-centrado .texto{
+  font-size: 28px;
+  margin: 0;
+}
+
+.section-4 .contenedor-centrado .precio{
+  font-size: 60px;
+  color: #F7EC13;
+  font-weight: 600;
+  margin: 0;
+}
+
+.section-4 .contenedor-centrado .texto-enlaces{
+  font-size: 22px;
+
+}
+
+.section-4 .contenedor-centrado .botones-enlaces {
+  padding: 0;
+}
+
+.section-4 .contenedor-centrado .botones-enlaces li{
+  display: inline-block;
+}
+
+.section-4 .contenedor-centrado .botones-enlaces li:first-child {
+  margin-right: 30px;
+}
+
+.section-4 .contenedor-centrado .botones-enlaces li a{
+
+  text-decoration: none;
+  background: #00468C;
+  color: white;
+  padding: 2px 18px;
+  border-radius: 5px;
+}
+
+.section-4 .logos-externos{
+  font-size: 60px;
+  position: absolute;
+  bottom: 3%;
+}
+
+.section-4 .logos-externos ul{
+  margin: 0;
+}
+
+.section-4 .logos-creditos{
+  max-width: 50%;
+  position: absolute;
+  bottom: 0%;
+  right: .05%;
+}
+
+.section-4 .logos-creditos ul{
+  margin: 0;
+}
+
+.section-4 .logos-creditos ul li img{
+  width: 55px;
 }
