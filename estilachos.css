@@ -1,5 +1,16 @@
+html,body{
+margin:0px;
+height:100%;
+}
+
 .header{
   background: url(img/fondoSeccion1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header .texto-header{
@@ -25,6 +36,12 @@
 
 .section-2{
   background: url(img/fondoSeccion2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .section-2 .section-2-contenido{
@@ -70,8 +87,81 @@
   background: url(img/seccion-2-1280x800.png);
   background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section-3 .agaves .logo-agaves{
+  position: absolute;
+  top: 3%;
 }
 
 .section-3 .agaves .titulo-agaves{
+  font-size: 28px;
+  position: absolute;
+  bottom: 10%;
+  left: 7%;
+  color: white;
+  width: 200px;
+  text-shadow: 1px 2px 0px #000;
 
+}
+
+.section-3 .agaves .texto-ubicacion-agaves{
+  display: inline-block;
+  font-size: 28px;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  color: white;
+  width: 320px;
+}
+
+.section-3 .agaves .texto-ubicacion-agaves h3{
+
+}
+
+.section-3 .agaves .texto-ubicacion-agaves p{
+  font-size: 18px;
+}
+
+.section-3 .jardines .logo-jardines{
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+
+.section-3 .jardines .titulo-jardines{
+  font-size: 28px;
+  position: absolute;
+  top: 10%;
+  right: 7%;
+  color: white;
+  width: 210px;
+  text-shadow: 1px 2px 0px #000;
+
+}
+
+.section-3 .jardines .texto-ubicacion-jardines{
+  display: inline-block;
+  font-size: 28px;
+  position: absolute;
+  bottom: 20%;
+  right: 7%;
+  color: white;
+  width: 320px;
+  text-align: right;
+}
+
+.section-3 .jardines .texto-ubicacion-jardines h3{
+
+}
+
+.section-3 .jardines .texto-ubicacion-jardines p{
+  font-size: 18px;
 }
