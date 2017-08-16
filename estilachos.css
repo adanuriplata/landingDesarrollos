@@ -514,6 +514,7 @@ li{
 
   .section-3-resposive-agaves .agaves .titulo-agaves{
     font-size: 30px;
+    margin-top: 20px;
   }
 
   .section-3-resposive-agaves .agaves .texto-ubicacion-agaves{
@@ -523,11 +524,16 @@ li{
 
   .section-3-resposive-jardines .jardines .titulo-jardines{
     font-size: 30px;
+    margin-top: 20px;
   }
 
   .section-3-resposive-jardines .jardines .texto-ubicacion-jardines{
     font-size: 20px;
     top: 25%;
+  }
+
+  .section-3-resposive-jardines .jardines .texto-ubicacion-jardines .descripcion-jardines{
+    font-size: 17px;
   }
 
   .section-4 .contenedor-centrado{
