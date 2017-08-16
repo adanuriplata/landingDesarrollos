@@ -266,6 +266,11 @@ li{
   margin: 0;
 }
 
+  .section-4 .logos-externos ul li img{
+    width: 70px;
+  }
+
+
 .section-4 .logos-creditos{
   max-width: 50%;
   position: absolute;
