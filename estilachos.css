@@ -505,7 +505,11 @@ li{
     font-size: 35px;
     text-align: center;
     font-weight: 100;
-    padding-bottom: 18px;
+    padding-bottom: 58px;
+  }
+
+  .section-2 .section-2-contenido ul li{
+    margin: 0px;
   }
 
   .section-3-resposive-agaves .agaves .titulo-agaves{
@@ -514,6 +518,7 @@ li{
 
   .section-3-resposive-agaves .agaves .texto-ubicacion-agaves{
     font-size: 20px;
+    top: 25%;
   }
 
   .section-3-resposive-jardines .jardines .titulo-jardines{
@@ -522,6 +527,7 @@ li{
 
   .section-3-resposive-jardines .jardines .texto-ubicacion-jardines{
     font-size: 20px;
+    top: 25%;
   }
 
   .section-4 .contenedor-centrado{
@@ -575,14 +581,12 @@ li{
   }
 
   .section-4 .logos-externos ul{
-    margin: 0;
+    display: none;
   }
 
   .section-4 .logos-creditos{
-    max-width: 95%;
-    position: absolute;
-    bottom: -16%;
-    right: 0%;
+    max-width: 100%;
+    bottom: -120px;
   }
 
   .section-4 .logos-creditos ul{
@@ -696,6 +700,8 @@ li{
     .section-3-resposive-agaves .agaves .texto-ubicacion-agaves{
       font-size: 17px;
       width: 80%;
+      position: absolute;
+      top: 25%;
     }
 
     .section-3-resposive-jardines{
@@ -717,6 +723,8 @@ li{
     .section-3-resposive-jardines .jardines .texto-ubicacion-jardines{
       font-size: 17px;
       width: 80%;
+      position: absolute;
+      top: 25%;
     }
 
     .section-4{
